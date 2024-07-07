@@ -4,10 +4,12 @@ import NavItem from "./nav-item";
 
 const Header = () => {
   return (
-    <header className="bg-amber-950 text-white flex items-center justify-center">
-      <NavItem isSelected>MENU</NavItem>
-      <NavItem>ENTRAR</NavItem>
-      <NavItem>CONTATO</NavItem>
+    <header className="bg-amber-950 text-white">
+      <nav className="flex items-center justify-center">
+        <NavItem href="/">MENU</NavItem>
+        <NavItem href="/login">ENTRAR</NavItem>
+        <NavItem href="/contact">CONTATO</NavItem>
+      </nav>
     </header>
   );
 };
