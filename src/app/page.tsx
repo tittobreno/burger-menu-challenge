@@ -1,5 +1,6 @@
 "use client";
 import { restaurantServices } from "@/services/restaurant";
+import Image from "next/image";
 import { useEffect } from "react";
 
 export default function Home() {
@@ -17,8 +18,18 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>burger</h1>
+    <main className="w-full h-screen">
+      <section className="w-full h-[150px] relative">
+        <Image
+          src={
+            "https://preodemo.gumlet.io/usr/venue/7602/web/646fbf3abf9d0.png"
+          }
+          className="w-full"
+          alt="Banner"
+          layout="fill"
+          objectFit="cover"
+        />
+      </section>
     </main>
   );
 }
