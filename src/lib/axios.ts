@@ -5,6 +5,7 @@ const api = axios.create({
   headers: {
     "Referrer-Policy": "strict-origin-when-cross-origin",
     "X-Requested-With": "XMLHttpRequest",
+    "Content-Type": "application/json",
   },
 });
 
