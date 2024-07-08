@@ -1,7 +1,8 @@
 import Banner from "@/components/banner";
+import Carousel from "@/components/carousel";
 import { Search } from "lucide-react";
 
-export default function Home() {
+export default async function Home() {
   return (
     <main className="w-full h-screen">
       <section className="w-full h-[150px] relative">
@@ -18,8 +19,8 @@ export default function Home() {
               className="w-full border-none bg-transparent shadow-none outline-none focus:outline-none focus:ring-0 p-0 m-0"
             />
           </div>
-          <section className="bg-gray-100 w-full">
-            <span>asdas</span>
+          <section className="bg-[#F9F9FA] flex gap-6 mt-[6px] p-8 items-start h-full">
+            <Carousel title="Burgers" />
           </section>
         </section>
       </section>

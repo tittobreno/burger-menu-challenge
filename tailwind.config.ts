@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        custom: "0 2px 14px 0 rgba(0,0,0,0.14)",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

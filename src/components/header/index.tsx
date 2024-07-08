@@ -1,9 +1,6 @@
 "use client";
-
-import { Menu } from "lucide-react";
-
-import NavItem from "./nav-item";
 import Sidebar from "../burger-menu";
+import NavItem from "./nav-item";
 
 const Header = () => {
   return (
